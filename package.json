@@ -1,0 +1,21 @@
+{
+  "name": "fabricacao-moveis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/047gabriel/fabricacao-moveis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/047gabriel/fabricacao-moveis/issues"
+  },
+  "homepage": "https://github.com/047gabriel/fabricacao-moveis#readme"
+}
