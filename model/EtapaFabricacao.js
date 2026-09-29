@@ -26,6 +26,6 @@ export class EtapaFabricacao {
     }
 
     descreverEtapa() {
-        
+        throw new Error ('O método só pode ser chamada nas classes filhas!')
     }
 }
