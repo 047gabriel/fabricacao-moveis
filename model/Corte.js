@@ -8,5 +8,9 @@ export class Corte extends EtapaFabricacao {
         this.tipoCorte = tipoCorte
     }
 
-
+    descreverEtapa() {
+        return `
+        Modelo do móvel: ${this.modeloMovel} - Unidades concluidas: ${this.getUnidadesConcluidas} - Tipo de corte: ${this.tipoCorte}
+        `
+    }
 }
