@@ -10,7 +10,7 @@ export class Corte extends EtapaFabricacao {
 
     descreverEtapa() {
         return `
-        Modelo do móvel: ${this.modeloMovel} - Unidades concluidas: ${this.getUnidadesConcluidas} - Tipo de corte: ${this.tipoCorte}
+        Modelo do móvel: ${this.modeloMovel} - Unidades concluidas: ${this.getUnidadesConcluidas} - Tipo de Corte: ${this.tipoCorte}
         `
     }
 }
