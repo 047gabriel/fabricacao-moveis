@@ -1,16 +1,14 @@
 import { EtapaFabricacao } from "./EtapaFabricacao.js";
 
 export class Acabamento extends EtapaFabricacao {
-    pintura
+    tipoAcabamento
 
-    constructor(numero, modeloMovel, unidadesConcluidas, pintura) {
+    constructor(numero, modeloMovel, unidadesConcluidas, tipoAcabamento) {
         super(numero, modeloMovel, unidadesConcluidas)
-        this.pintura = pintura
+        this.tipoAcabamento = tipoAcabamento
     }
 
     descreverEtapa() {
-        return `
-        Modelo do móvel: ${this.modeloMovel} - Unidades concluidas: ${this.getUnidadesConcluidas} - Tipo de Pintura: ${this.Pintura}
-        `
+        return `Modelo do móvel: ${this.modeloMovel}; unidades concluídas: ${this.unidadesConcluidas}; tipo de acabamento: ${this.tipoAcabamento}.`
     }
 }

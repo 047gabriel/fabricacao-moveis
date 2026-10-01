@@ -1,6 +1,4 @@
-import { EtapaFabricacao } from "./EtapaFabricacao"
-
-import class Ferramenta extends EtapaFabricacao {
+export class Ferramenta {
     codigo
     nome
 

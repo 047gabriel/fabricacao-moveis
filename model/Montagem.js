@@ -9,8 +9,6 @@ export class Montagem extends EtapaFabricacao {
     }
 
     descreverEtapa() {
-        return `
-        Modelo do móvel: ${this.modeloMovel} - Unidades concluidas: ${this.getUnidadesConcluidas} - Tipo de Montagem: ${this.tipoUniao}
-        `
+        return `Modelo do móvel: ${this.modeloMovel}; unidades concluídas: ${this.unidadesConcluidas}; tipo de união: ${this.tipoUniao}.`
     }
 }
